@@ -1,6 +1,5 @@
 (define (f a b)
     (pair a (pair b (pair b (pair a ())))))
-
 (let ((a (f 1 2)))
     (let ((b (f 1 2)))
         (let ((c (f 2 1)))
