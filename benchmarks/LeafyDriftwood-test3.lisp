@@ -1,0 +1,1 @@
+(if true (if (eq 3 (+ 1 2)) (if true print(0) print(1)) (if true (if true 0 1) (if true 2 3))) (if true (if true 9 10) (if true 3 4)))
