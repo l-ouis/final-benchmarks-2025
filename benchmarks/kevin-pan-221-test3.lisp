@@ -1,0 +1,8 @@
+(define (g x) -2)
+(define (f x)
+    (if (< (g x) 0)
+        (print -1)
+        (print (g x))))
+(define (h x)
+    (f x))
+(h (add1 (add1 (add1 (add1 (add1 (add1 (add1 (add1 (add1 (add1 (add1 100))))))))))))
